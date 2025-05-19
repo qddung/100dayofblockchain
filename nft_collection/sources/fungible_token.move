@@ -4,7 +4,7 @@ module nft_collection::fungible_token {
     use sui::coin::{Self, Coin, TreasuryCap};
     use sui::object::{Self, UID};
     use std::option;
-    use nft_collection::fungible_token_types::{Self, MYCOIN, AdminCap};
+    use nft_collection::fungible_token_types::{MYCOIN, AdminCap};
 
     /// Initialize a new token type
     fun init(witness: MYCOIN, ctx: &mut TxContext) {
