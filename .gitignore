@@ -4,3 +4,5 @@ blockchain-architect/build
 blockchain-architect/coverage
 blockchain-architect/logs
 blockchain-architect/temp
+
+**/node_modules
