@@ -1,0 +1,8 @@
+curl --location 'https://fullnode.testnet.sui.io:443' \
+--header 'Content-Type: application/json' \
+--data '{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "suix_getOwnedObjects",
+  "params": ["0x9e105786bd9d77764173108832c0fec299e7bb12ca45a039ceeb8d54b85fc781"]
+}'
